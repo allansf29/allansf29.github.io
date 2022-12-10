@@ -1,0 +1,91 @@
+.inicio {
+    background-image: url(../imagens/image-galaxia.png);
+    height: 100vh;
+    padding: 20px 0;
+    display: flex;
+    align-items: center; 
+}
+
+.inicio .container {
+    display: flex;
+    align-items: center;
+	justify-content: space-around;
+    flex-direction: row-reverse;
+    color: rgb(255, 255, 255);     
+}
+
+.apresentacao {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 55px;
+    text-align: center;
+}
+
+.apresentacao-centralizador {
+    transition: 1s all;
+}
+
+.apresentacao-centralizador:hover {
+    color: aqua;
+    transition: 3s;
+
+}
+
+.apresentacao-centralizador:active {
+    color: rgb(62, 27, 219);
+    transition: 3s;
+}
+
+.nome-apresentacao {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 115px;
+    transition: .5s;
+}
+
+.seja-bem-vindo-apresentacao {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 55px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.inicio-logo {
+    width: 250px;
+    transform: translateY(0px);
+    animation: float 20s ease-in-out infinite;
+    border-radius: 45px;
+}
+
+
+@media screen and (max-width:1050px){
+    .inicio-logo {
+        width: 150px;
+  }
+}
+
+@media screen and (max-width:700px){
+    .inicio{
+        display: flex;
+        justify-content: center;
+        flex-direction: none;    
+    }
+
+    .apresentacao {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .nome-apresentacao {
+        font-family: 'Londrina Outline', cursive;
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .seja-bem-vindo-apresentacao {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .inicio-logo {
+        width: 0px;
+    }
+}

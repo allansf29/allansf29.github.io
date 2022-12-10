@@ -1,0 +1,152 @@
+.meus-projetos {
+    min-height: 80vh;
+    /*padding: 20px 0;*/
+    display: flex;
+    align-items: center; 
+    border-top: 1px solid #ffffff;
+}
+
+
+.imagens-projetos {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.projeto-nome {
+    width: 94%;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 70px;
+    color: aqua;
+}
+
+.button-projetos {
+    width: 17%;
+    padding: 5px;
+    background: rgb(255, 255, 255);
+    color: rgb(47, 0, 255);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.button-projetos:hover {
+    background: rgb(0, 255, 255);
+    transform: scale(1.2);
+}
+
+.button-texto{
+    text-decoration: none;
+    color: rgb(47, 0, 255);
+}
+
+
+.fonte-texto-academico {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: aqua;
+    padding: 25px;
+}
+
+.fonte-texto-profissionais {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: aqua;
+    padding: 25px; 
+}
+
+.imagens-projetos {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.imagens-academico {
+    width: 50%;
+    border-right: 1px solid #ffffff98;
+}
+
+.imagens-profissionais {
+    width: 50%;
+
+}
+
+.centralizador-imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.titulo-projeto{
+    font-family: 'Podkova', serif;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.texto-projeto{
+    font-family: 'Podkova', serif;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.link-imagens {
+    width: 254px;
+    border-radius: 5%;
+    border-left: 4px solid #3700ff;
+    transition: 1s all;
+    box-shadow: 4px 4px 5px #000000; 
+}
+
+.link-imagens:hover{
+    background: rgb(0, 195, 255);
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width:1050px){
+    .projeto-nome {
+        font-size: 50px;
+    }
+
+    .button-projetos {
+        width: 40%;
+    }
+
+}
+
+
+@media screen and (max-width:700px){
+    .fonte-texto-academico, .fonte-texto-profissionais {
+        font-size: 27px;
+    }
+
+    .meus-projetos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagens-academico {
+        border-right: none;
+    }
+
+    .button-projetos {
+        width: 70%;
+    }
+
+}

@@ -1,0 +1,91 @@
+.minhas-habilidades {
+    min-height: 82vh;
+    padding: 20px 0;
+    display: flex;
+    align-items: center; 
+    border-top: 1px solid #ffffff;
+}
+
+.imagens-habilidades {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.habilidade-nome {
+    width: 94%;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 70px;
+    color: aqua;
+}
+
+.imagens-html {
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+
+.imagem-css {
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+
+.imagem-java{
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+
+
+.fonte-texto-html {
+    font-family: 'Podkova', serif;
+    text-align: center;
+    font-size: 25px;
+    color: aqua;
+}
+
+
+.fonte-texto-css {
+    font-family: 'Podkova', serif;
+    text-align: center;
+    font-size: 25px;
+    color: aqua;
+    
+}
+
+.fonte-texto-java {
+    font-family: 'Podkova', serif;
+    text-align: center;
+    font-size: 25px;
+    color: aqua;
+}
+
+
+@media screen and (max-width:1050px){
+    .habilidade-nome{
+        font-size: 50px;
+    }
+
+    .fonte-texto-html, .fonte-texto-css, .fonte-texto-java {
+        font-size: 20px;
+        width: auto;
+        padding: 15px;
+    }
+
+}
+
+@media screen and (max-width:700px){
+    .habilidade-nome {
+        font-size: 50px;
+    }
+
+    .fonte-texto-html, .fonte-texto-css, .fonte-texto-java {
+        font-size: 15px;
+        width: auto;
+        padding: 15px;
+    }
+}
+

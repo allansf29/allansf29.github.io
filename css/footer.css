@@ -1,0 +1,38 @@
+.footer-Principal{
+    width: 100%;
+    background: linear-gradient(250deg, #000000d0, #2e0da3cb, #000000c0, #000000bd);
+    padding: 20px 0;
+    box-shadow: 0px 0px 20px #000000;  
+}
+
+.footer-centralizador {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-email{
+    font-family: 'Podkova', serif;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-copyright {
+    font-family: 'Podkova', serif;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-sociais {
+    display: flex;
+    justify-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width:1050px){
+    
+
+}
+
