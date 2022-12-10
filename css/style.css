@@ -1,0 +1,577 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: auto;
+    background: linear-gradient(41deg, #000000, #2d0da3, #000000, #000000);
+}
+
+/*----------------------------------------------HEADER-INICIO--------------------------------------------*/ 
+
+.container{
+    width: 94%;
+	margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo, .sociais{
+    display: flex;
+    gap: 15px;
+    width: 25%;
+}
+
+.menu {
+    width: 50%
+}
+
+.menu nav ul{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.headerPrincipal {
+    width: 100%;
+    background: linear-gradient(41deg, #000000, #2d0da3d9, #000000d9, #000000);
+    padding: 15px 0;
+    box-shadow: 0px 0px 20px #000000;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.header-ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+	font-size: 25px;
+}
+
+
+
+.headerPrincipal-link {
+    padding: 10px;
+	margin-bottom: 10px;
+	color: aqua;
+    font-size: 20px;
+	text-decoration: none;
+	transition: .5s;
+	display: block;	
+}
+
+.headerPrincipal-link:hover {
+    color: darkviolet;
+    transition: 1s;
+}
+
+/*----------------------------------------------HEADER-FIM--------------------------------------------*/
+
+/*-------------------------------------TELA-DE-APRESENTAÇÃO-INICIO------------------------------------*/ 
+
+.inicio {
+    background-image: url(../imagens/image-galaxia.png);
+    height: 100vh;
+    padding: 20px 0;
+    display: flex;
+    align-items: center; 
+}
+
+.inicio .container {
+    display: flex;
+    align-items: center;
+	justify-content: space-around;
+    flex-direction: row-reverse;
+    color: rgb(255, 255, 255);     
+}
+
+.apresentacao {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 55px;
+    text-align: center;
+}
+
+.apresentacao-centralizador {
+    transition: 1s all;
+}
+
+.apresentacao-centralizador:hover {
+    color: aqua;
+    transition: 3s;
+
+}
+
+.apresentacao-centralizador:active {
+    color: rgb(62, 27, 219);
+    transition: 3s;
+}
+
+.nome-apresentacao {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 115px;
+    transition: .5s;
+}
+
+.seja-bem-vindo-apresentacao {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 55px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.inicio-logo {
+    width: 250px;
+    transform: translateY(0px);
+    animation: float 20s ease-in-out infinite;
+    border-radius: 45px;
+}
+
+
+
+
+/*----------------------------------------------TELA-DE-APRESENTAÇÃO-FIM--------------------------------------------*/
+/*----------------------------------------------TELA-DE-SOBRE-MIM-INICIO--------------------------------------------*/
+.sobre-mim {
+    min-height: 80vh;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.sobre-mim .container{
+    display: flex;
+    align-items: center;
+	justify-content: space-evenly;
+    color: aqua;
+}
+
+.sobre-mim-logo {
+    width: 310px;
+    /*transform: translateY(0px);
+    animation: float 20s ease-in-out infinite;*/
+    border-radius: 45px;
+    margin-bottom: 60px;
+}
+
+.sobre-mim-apresentacao {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 70px;
+}
+
+.sobre-mim-texto {
+    max-width: 700px;
+    padding: 0;
+    margin: 20px;
+    font-family: 'Podkova', serif;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 25px;
+    text-indent: 30px;
+}
+
+/*----------------------------------------------TELA-DE-SOBRE-MIM-FIM--------------------------------------------*/
+/*-------------------------------------------TELA-DE-HABILIDADES-INICIO------------------------------------------*/
+
+.minhas-habilidades {
+    min-height: 82vh;
+    padding: 20px 0;
+    display: flex;
+    align-items: center; 
+    border-top: 1px solid #ffffff;
+}
+
+.imagens-habilidades {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.habilidade-nome {
+    width: 94%;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 70px;
+    color: aqua;
+}
+
+.imagens-html {
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+
+.imagem-css {
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+
+.imagem-java{
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+
+
+.fonte-texto-html {
+    font-family: 'Podkova', serif;
+    text-align: center;
+    font-size: 25px;
+    color: aqua;
+}
+
+
+.fonte-texto-css {
+    font-family: 'Podkova', serif;
+    text-align: center;
+    font-size: 25px;
+    color: aqua;
+    
+}
+
+.fonte-texto-java {
+    font-family: 'Podkova', serif;
+    text-align: center;
+    font-size: 25px;
+    color: aqua;
+}
+
+/*----------------------------------------------TELA-DE-HABILIDADES-FIM--------------------------------------------*/
+/*----------------------------------------------TELA-DE-PROJETOS-INICIO--------------------------------------------*/
+
+.meus-projetos {
+    min-height: 80vh;
+    /*padding: 20px 0;*/
+    display: flex;
+    align-items: center; 
+    border-top: 1px solid #ffffff;
+}
+
+
+.imagens-projetos {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.projeto-nome {
+    width: 94%;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 70px;
+    color: aqua;
+}
+
+.button-projetos {
+    width: 17%;
+    padding: 5px;
+    background: rgb(255, 255, 255);
+    color: rgb(47, 0, 255);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.button-projetos:hover {
+    background: rgb(0, 255, 255);
+    transform: scale(1.2);
+}
+
+.button-texto{
+    text-decoration: none;
+    color: rgb(47, 0, 255);
+}
+
+
+.fonte-texto-academico {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: aqua;
+    padding: 25px;
+}
+
+.fonte-texto-profissionais {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: aqua;
+    padding: 25px; 
+}
+
+.imagens-projetos {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.imagens-academico {
+    width: 50%;
+    border-right: 1px solid #ffffff98;
+}
+
+.imagens-profissionais {
+    width: 50%;
+
+}
+
+.centralizador-imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.titulo-projeto{
+    font-family: 'Podkova', serif;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.texto-projeto{
+    font-family: 'Podkova', serif;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.link-imagens {
+    width: 254px;
+    border-radius: 5%;
+    border-left: 4px solid #3700ff;
+    transition: 1s all;
+    box-shadow: 4px 4px 5px #000000; 
+}
+
+.link-imagens:hover{
+    background: rgb(0, 195, 255);
+    transform: scale(1.1);
+}
+
+/*--------------------------------------------TELA-DE-PROJETOS-FIM---------------------------------------*/
+/*-----------------------------------------------FOOTER-INICIO-------------------------------------------*/
+
+.footer-Principal{
+    width: 100%;
+    background: linear-gradient(250deg, #000000d0, #2e0da3cb, #000000c0, #000000bd);
+    padding: 20px 0;
+    box-shadow: 0px 0px 20px #000000;  
+}
+
+.footer-centralizador {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-email{
+    font-family: 'Podkova', serif;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-copyright {
+    font-family: 'Podkova', serif;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-sociais {
+    display: flex;
+    justify-items: center;
+    gap: 10px;
+}
+
+/*-----------------------------------------------FOOTER-FIM-------------------------------------------*/
+
+/*-----------------------------------------------ANIMAÇÕES E RESPONSIVO-------------------------------------------*/
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+[data-anime] {
+    opacity: 0;
+    transition: 1s;
+  }
+  
+  [data-anime="down"] {
+    transform: translate3d(0, -100%, 0);
+  }
+  
+  [data-anime="up"] {
+    transform: translate3d(0, 100%, 0);
+  }
+  
+  [data-anime="left"] {
+    transform: translate3d(-100%, 0, 0);
+  }
+  
+  [data-anime="right"] {
+    transform: translate3d(50px ,0 ,0);
+  }
+  
+  [data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0 ,0 ,0);
+  }
+
+  @keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);    
+    }
+    100% {
+        transform: translateY(0PX);
+    }
+}
+
+    @media screen and (max-width:1050px){
+    body {
+        width: 100%;
+
+    }
+    .headerPrincipal {
+        position:absolute;
+
+    }
+
+    .sobre-mim-apresentacao, .habilidade-nome, .projeto-nome {
+        font-size: 50px;
+    }
+
+    .sobre-mim-texto {
+        font-size: 22px;
+
+    }
+
+    .fonte-texto-html, .fonte-texto-css, .fonte-texto-java {
+        font-size: 20px;
+        width: auto;
+        padding: 15px;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .header-ul {
+       display: block;
+    }
+    
+    .sociais {
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        justify-content: center;
+        align-items: stretch;
+        width: 20%;
+    }
+
+    .button-projetos {
+        width: 40%;
+    }
+
+    .inicio-logo {
+        width: 150px;
+  }
+    }
+
+  @media screen and (max-width:700px){
+
+    .inicio .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: none;    
+    }
+
+    section {
+        width: 100%;
+        padding: 0;
+    }
+
+    .sobre-mim-apresentacao, .habilidade-nome {
+        font-size: 50px;
+    }
+
+    .sobre-mim-texto {
+        font-size: 18px;
+
+    }
+
+    .fonte-texto-html, .fonte-texto-css, .fonte-texto-java {
+        font-size: 15px;
+        width: auto;
+        padding: 15px;
+    }
+    
+    .fonte-texto-academico, .fonte-texto-profissionais {
+        font-size: 27px;
+
+    }
+
+    .meus-projetos {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .imagens-academico {
+        border-right: none;
+    }
+
+    .button-projetos {
+        width: 70%;
+    }
+
+    .apresentacao {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .nome-apresentacao {
+        font-family: 'Londrina Outline', cursive;
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .seja-bem-vindo-apresentacao {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .headerPrincipal-link {
+        border-bottom: groove;
+    }
+
+    .inicio-logo {
+        width: 0px;
+    }
+}
