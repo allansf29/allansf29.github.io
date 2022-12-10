@@ -1,66 +1,38 @@
 .minhas-habilidades {
-    min-height: 82vh;
-    padding: 20px 0;
-    display: flex;
     align-items: center; 
     border-top: 1px solid #ffffff;
+    display: flex;
+    min-height: 82vh;
+    padding: 20px 0;
 }
 
 .imagens-habilidades {
-    width: 94%;
     margin: 0 auto;
+    width: 94%;
 }
 
 .habilidade-nome {
-    width: 94%;
+    color: aqua;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 70px;
     margin: 0 auto;
     padding: 50px 0;
-    font-family: 'Fredericka the Great', cursive;
     text-align: center;
-    font-size: 70px;
-    color: aqua;
+    width: 94%;
 }
 
-.imagens-html {
-    display: flex;
+.imagens-html, .imagem-css, .imagem-java {
     align-items: center;
-	justify-content: space-between;
-}
-
-.imagem-css {
     display: flex;
-    align-items: center;
-	justify-content: space-between;
-}
-
-.imagem-java{
-    display: flex;
-    align-items: center;
 	justify-content: space-between;
 }
 
 
-.fonte-texto-html {
-    font-family: 'Podkova', serif;
-    text-align: center;
-    font-size: 25px;
+.fonte-texto-html, .fonte-texto-css, .fonte-texto-java{
     color: aqua;
-}
-
-
-.fonte-texto-css {
     font-family: 'Podkova', serif;
-    text-align: center;
     font-size: 25px;
-    color: aqua;
-    
-}
-
-.fonte-texto-java {
-    font-family: 'Podkova', serif;
     text-align: center;
-    font-size: 25px;
-    color: aqua;
 }
 
 
@@ -71,8 +43,8 @@
 
     .fonte-texto-html, .fonte-texto-css, .fonte-texto-java {
         font-size: 20px;
-        width: auto;
         padding: 15px;
+        width: auto;
     }
 
 }
@@ -84,8 +56,8 @@
 
     .fonte-texto-html, .fonte-texto-css, .fonte-texto-java {
         font-size: 15px;
-        width: auto;
         padding: 15px;
+        width: auto;
     }
 }
 

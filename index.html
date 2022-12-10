@@ -17,32 +17,46 @@
         <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Podkova&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/674bbd670c.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
         <header class="headerPrincipal" data-anime="down">
-            <div class="container">
-                <div class="logo"><img src="" alt=""></div>
-                <div class="menu">
-                    <nav>
-                        <ul class="header-ul">
-                            <li><a class="headerPrincipal-link" href="#inicio">Início</a></li>
-                            <li><a class="headerPrincipal-link" href="#sobre">Sobre mim</a></li>
-                            <li><a class="headerPrincipal-link" href="#habilidades">Habilidades</a></li>
-                            <li><a class="headerPrincipal-link" href="#projetos">Projetos</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="sociais">
-                    <a href="https://www.linkedin.com/in/allan-victor-dos-s-feitosa-5494b0248/" target="_blank"><img src="imagens/linkedin-icon.png" alt="linkedin" width="40px"></a>
-                    <div>
-                        <a href="https://github.com/allansf29" target="_blank"><img src="imagens/git-hub-icon.png" alt="git-hub" width="40px"></a>
+            <section>
+                <nav>
+                    <div class="nav-center">
+                      <div class="nav-header">
+                        <img src="" alt="" class="logo"/>
+                        <button class="nav-toggle" id="navbar-toggle">
+                          <i class="fas fa-bars"></i>
+                        </button>
+                      </div>
+                      <ul class="links" id="navbar-link">
+                        <li><a class="headerPrincipal-link" href="#inicio">Início</a></li>
+                        <li><a class="headerPrincipal-link" href="#sobre">Sobre mim</a></li>
+                        <li><a class="headerPrincipal-link" href="#habilidades">Habilidades</a></li>
+                        <li><a class="headerPrincipal-link" href="#projetos">Projetos</a></li>
+                      </ul>
+                      <ul class="social-icons">
+                        <li>
+                            <a href="https://www.linkedin.com/in/allan-victor-dos-s-feitosa-5494b0248/">
+                              <i class="fab fa-linkedin"></i>
+                            </a>
+                          </li>
+                        <li>
+                          <a href="https://github.com/allansf29">
+                            <i class="fa-brands fa-github"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://api.whatsapp.com/send?phone=5511939471008">
+                            <i class="fa-brands fa-whatsapp"></i>
+                          </a>
+                        </li>
+                      </ul>
                     </div>
-                    <div>
-                        <a href="https://wa.me/5511960309718" target="_blank"><img src="imagens/whatsapp-icon.png" alt="whatsapp" width="40px"></a>
-                    </div>
-                </div>
-            </div>
+                  </nav>
+            </section>
         </header>
 
         <main>
@@ -132,18 +146,29 @@
                     <div class="footer-copyright"><p>&copy; Copyright Allanv29 - 2022</p></div>
 
                     <div class="footer-sociais">
-                    <a href="https://www.linkedin.com/in/allan-victor-dos-s-feitosa-5494b0248/" target="_blank"><img src="imagens/linkedin-icon.png" alt="linkedin" width="40px"></a>
-                    <div>
-                        <a href="https://github.com/allansf29" target="_blank"><img src="imagens/git-hub-icon.png" alt="git-hub" width="40px"></a>
-                    </div>
-                    <div>
-                        <a href="https://wa.me/5511960309718" target="_blank"><img src="imagens/whatsapp-icon.png" alt="whatsapp" width="40px"></a>
-                    </div>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="https://www.linkedin.com/in/allan-victor-dos-s-feitosa-5494b0248/">
+                                  <i class="fab fa-linkedin"></i>
+                                </a>
+                              </li>
+                            <li>
+                              <a href="https://github.com/allansf29">
+                                <i class="fa-brands fa-github"></i>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://api.whatsapp.com/send?phone=5511939471008">
+                                <i class="fa-brands fa-whatsapp"></i>
+                              </a>
+                            </li>
+                          </ul>
 
                 </div>
             </div>
         </footer>
 
-        <script type="text/javascript" src="./javascript/script.js"></script>
+        <script src="./js/animation.js"></script>
+        <script src="./js/navbar.js"></script>
     </body>
 </html>
