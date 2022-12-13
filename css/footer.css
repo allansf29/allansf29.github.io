@@ -31,8 +31,40 @@
     justify-items: center;
 }
 
-@media screen and (max-width:1050px){
-    
-
+.social-icons-footer {
+    display: flex;
+    font-size: 40px;
 }
+
+.social-icons-footer a {
+    color: white;
+    margin: 0 0.5rem;
+    transition: blue;
+}
+
+.social-icons-footer a:hover {
+    color: white;
+}
+  
+.social-icons-footer i:hover{
+    color: cyan;
+    transition: 1s;
+}
+  
+ul.social-icons-footer {
+    color: white;
+}
+
+
+@media screen and (max-width:799px) {
+    .footer-email, .footer-copyright {
+        font-size: 10px;
+    }
+
+
+    .social-icons-footer {
+        font-size: 25px;
+    }
+}
+
 
