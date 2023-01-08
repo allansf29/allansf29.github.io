@@ -1,4 +1,4 @@
-header{
+.headerPrincipal{
     box-shadow: 0 1px 2px var(--shadow-color);
     background: linear-gradient(41deg, #000000, #2d0da3d9, #000000d9, #000000);
     box-shadow: 0px 0px 20px #000000;
@@ -26,33 +26,23 @@ ul {
     cursor: pointer;
     transition: 1s;
 }
-.nav-toggle:hover {
+/* .nav-toggle:hover {
     color: cyan;
     transform: rotate(90deg);
-}
+} */
   
 .links a {
     color: aqua;
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     font-style: inherit;
     font-weight: bold;
+    font-family: 'Combo', cursive;
     padding: 10px 10px;
     text-decoration: none;
     transition: 1s;
 }
-  
-a.header-Principal-link {
-    color: black;
-    font-family: 'Combo', cursive;
-}
-  
-.header-Principal-link:hover {
-    color: rgb(255, 255, 255);
-    background: rgb(144, 144, 245);
-    padding-left: 1.5rem;
-    transition: 1s;
-}
+
 
 .social-icons {
     display: none;
@@ -85,15 +75,6 @@ ul.social-icons {
 }
   
   
-  /* @media (max-width:480px){
-    header{
-    position:fixed;
-    width:100%;
-    }
-     .header-title{
-    font-size: 1.5rem;
-    } 
-  } */
   
 @media screen and (min-width: 800px) {
     .nav-center {
@@ -102,7 +83,7 @@ ul.social-icons {
     justify-content: space-between;
     max-width: 1170px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0.5rem;
     }
   
     .nav-header {
@@ -118,15 +99,6 @@ ul.social-icons {
     height: auto;
     }
   
-    .links a {
-    padding: 0;
-    margin: 0 0.5rem;
-    }
-  
-    .links a:hover {
-    background: transparent;
-    padding: 0;
-    }
   
     .social-icons {
     display: flex;

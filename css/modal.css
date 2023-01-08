@@ -1,0 +1,154 @@
+.modal {
+    background: #000000d0;
+    left: 0;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.modal.active{
+    opacity: 1;
+    z-index: 1;
+}
+
+.modal-content {
+    background-color: #416af0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px black;
+    display: flex;
+    flex-direction: column;
+    margin: 15vh auto;
+    padding-bottom: 20px;
+    width: 50vw;
+    
+}
+
+.modal-header {
+    background: linear-gradient(41deg, rgb(47 0 255), rgb(47 0 255), rgb(62 27 219), #2e0da3);
+    border-radius: 3px;
+    display: flex;
+    font-size: 1rem;
+    height: 40px;
+    justify-content: center;
+    line-height: 40px;
+    position: relative;
+}
+
+.modal-close{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 40px;
+    text-align: center;
+    /* background-color: tomato; */
+    user-select: none;
+    width: 40px;
+}
+
+.modal-close:hover{
+    background-color: #FF4949;
+    color: white;
+}
+
+/* .modal-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+} */
+
+.modal-footer{
+    background-color: inherit;
+    text-align: center;
+    padding: 0 20px
+}
+
+.modal-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.modal-img {
+    border-radius: 10px;
+}
+
+.modal-text {
+    padding-left: 20px;
+    font-family: 'Combo', cursive;
+}
+
+.modal-icons {
+    font-size: 40px;
+    color: white;
+    padding: 7px 20px 7px 20px;
+}
+
+/* .tab{
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+    overflow: auto;
+}
+
+.tab button {
+    background-color: #f1f1f1;
+    border: none;
+    outline: none;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    padding: 10px 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 3px 2px 0px 2px;
+    float: left;
+}
+
+.tab button:hover {
+    background-color: #fbfbfb;
+}
+
+.tab button.ativo {
+    background-color: white;
+    color: #008cff;
+}
+
+.conteudo {
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 6px 12px;
+    display: none;
+} */
+
+@media (max-width:1200px){
+    .modal-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (max-width:480px){
+    .modal{
+        top:100%;
+        transition: all 1s ease;
+    }
+    .modal.active{
+        top:0;
+    }
+    .modal-content{
+        margin:0;
+        width:100%;
+        position:fixed;
+    }
+
+
+}

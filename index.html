@@ -7,12 +7,13 @@
         <link rel="stylesheet" type="text/css" href="./css/reset.css">
         <link rel="stylesheet" type="text/css" href="./css/style.css">
         <link rel="stylesheet" type="text/css" href="./css/header.css">
-        <link rel="stylesheet" type="text/css" href="./css/inicio.css">
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
         <link rel="stylesheet" type="text/css" href="./css/sobre.css">
         <link rel="stylesheet" type="text/css" href="./css/habilidades.css">
         <link rel="stylesheet" type="text/css" href="./css/projetos.css">
         <link rel="stylesheet" type="text/css" href="./css/footer.css">
         <link rel="stylesheet" type="text/css" href="./css/transition.css">
+        <link rel="stylesheet" type="text/css" href="./css/modal.css">
         <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Podkova&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
@@ -31,10 +32,10 @@
                         </button>
                       </div>
                       <ul class="links" id="navbar-link">
-                        <li><a class="headerPrincipal-link" href="#inicio">Início</a></li>
-                        <li><a class="headerPrincipal-link" href="#sobre">Sobre mim</a></li>
-                        <li><a class="headerPrincipal-link" href="#habilidades">Habilidades</a></li>
-                        <li><a class="headerPrincipal-link" href="#projetos">Projetos</a></li>
+                        <li><a class="header-Main-link" href="#main">Início</a></li>
+                        <li><a class="header-Main-link" href="#sobre">Sobre mim</a></li>
+                        <li><a class="header-Main-link" href="#habilidades">Habilidades</a></li>
+                        <li><a class="header-Main-link" href="#projetos">Projetos</a></li>
                       </ul>
                       <ul class="social-icons">
                         <li>
@@ -59,9 +60,9 @@
         </header>
 
         <main>
-            <section id="inicio" class="inicio">
+            <section id="main" class="main">
             <div class="container">
-              <h1 ><img class="inicio-logo" src="imagens/pc-imagem.png" alt="LOGO" data-anime="left"></h1>
+              <h1 ><img class="main-logo" src="imagens/pc-imagem.png" alt="LOGO" data-anime="left"></h1>
               <div class="apresentacao-centralizador" data-anime="right">
                     <p class="apresentacao">Olá, eu sou</p>
                     <br>
@@ -103,39 +104,70 @@
         </section>
     
         <section id="projetos" class="meus-projetos">
-            <div class="imagens-academico" data-anime="left">
-                <p class="fonte-texto-academico">Projetos Acadêmicos</p>
-                <p class="titulo-projeto">Barbearia Alura</p>
-                    <div class="centralizador-imagens"><img class="link-imagens" src="imagens/barbearia.jpg">
-                        <p class="texto-projeto">Neste projeto Barbearia Alura foi feito diferentes paginas como HOME, PRODUTOS e CONTATO utilizado HTML e CSS.</p>
-                        <button class="button-projetos">
-                            <a class="button-texto" href="./projetos/Barbearia-Alura/apresentacao.html" target="_blank">Projeto</a>
-                        </button>
+            <div class="imagens-projetos" data-anime="">
+              <h3 class="fonte-texto-academico">Projetos Acadêmicos</h3>
+
+                    <div class="centralizador-imagens">
+                      <img class="link-imagens" src="imagens/cinza.png">
+                      <p class="titulo-projeto">Projeto em desenvolvimento</p>
+                      
+                      <button class="button-projetos" id="open-modal">projeto</button>
                     </div>
 
-                    <p class="titulo-projeto">Projeto em desenvolvimeto</p>
-                    <div class="centralizador-imagens"><img class="link-imagens" src="imagens/cinza.png">
-                        <p class="texto-projeto">Em breve</p>
-                        <button class="button-projetos">Projeto</button>
+                    <div class="centralizador-imagens">
+                      <img class="link-imagens" src="imagens/cinza.png">
+                      <p class="titulo-projeto">Projeto em desenvolvimento</p>
+                      <button class="button-projetos">Projeto</button>
                     </div>
-            </div>
                     
-            <div class="imagens-profissionais" data-anime="left">
-                <p class="fonte-texto-profissionais">Projetos Profissionais</p>
-                <p class="titulo-projeto">Projeto em desenvolvimeto</p>
                     <div class="centralizador-imagens"><img class="link-imagens" src="imagens/cinza.png">
-                        <p class="texto-projeto"><br>Em breve<br></p>
+                      <p class="texto-projeto">Projeto em desenvolvimeto</p>
+                      <button class="button-projetos">Projeto</button>
+                  </div>
+                   <!-- <div class="modal" id="modal">
+                      <div class="modal-content">
+                        <header class="modal-header">
+                          <h2 class="modal-text">Informações do Projeto</h2>
+                          <span class="modal-close" id="modal-close">&#10006;</span>
+                        </header>
+                        <section id="section" class="modal-section">
+                          <div class="modal-container">
+                            <img class="modal-img" src="" width="300" height="169" border="0" alt=""/>
+                            <p class="modal-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, quo dicta deserunt explicabo asperiores amet veritatis unde rerum vitae quidem! Ullam voluptates possimus dolore vitae, ad vero optio iste perspiciatis!</p>
+                          </div>
+                          <div>
+                            <p class="modal-text">Técnologias utilizadas no projeto: </p>
+                            <ul class="modal-icons">
+                              <a class="fa-brands fa-html5"></a>
+                              <a class="fa-brands fa-css3-alt"></a>
+                              <a class="fa-brands fa-js"></a>
+                            </ul>
+                          </div>
+                        </section>
+                        <footer class="modal-footer">
+                          <button class="button-projetos">
+                            <a class="button-texto" href="./projetos/Barbearia-Alura/apresentacao.html" target="_blank">Ver Projeto</a>
+                        </button>
+                        </footer>
+                      </div>
+                    </div> -->
+                  <div class="imagens-projetos" data-anime="">
+                    <h3 class="fonte-texto-profissionais">Projetos Profissionais</h3>
+                      <div class="centralizador-imagens"><img class="link-imagens" src="imagens/cinza.png">
+                        <p class="texto-projeto">Projeto em desenvolvimeto</p>
                         <button class="button-projetos">Projeto</button>
                     </div>
+                    <div class="centralizador-imagens"><img class="link-imagens" src="imagens/cinza.png">
+                      <p class="texto-projeto">Projeto em desenvolvimeto</p>
+                      <button class="button-projetos">Projeto</button>
+                  </div>
+                  <div class="centralizador-imagens"><img class="link-imagens" src="imagens/cinza.png">
+                    <p class="texto-projeto">Projeto em desenvolvimeto</p>
+                    <button class="button-projetos">Projeto</button>
+                </div>
 
-                    <p class="titulo-projeto">Projeto em desenvolvimeto</p>
-                    <div class="centralizador-imagens"><img class="link-imagens" src="imagens/cinza.png">
-                        <p class="texto-projeto">Em breve</p>
-                        <button class="button-projetos">Projeto</button>
-                    </div>
-            
+            </div>
         </section>
-
         </main>
         <footer class="footer-Principal">
             <div class="footer-redes">
@@ -165,8 +197,11 @@
                 </div>
             </div>
         </footer>
-        
         <script src="./js/animation.js"></script>
         <script src="./js/navbar.js"></script>
+        <script src="./js/modal.js"></script>
+        <script src="./js/tabs.js"></script>
     </body>
 </html>
+
+

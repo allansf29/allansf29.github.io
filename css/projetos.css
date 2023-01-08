@@ -1,15 +1,8 @@
 .meus-projetos {
     align-items: center; 
     border-top: 1px solid #ffffff;
-    display: flex;
+    display: block;
     min-height: 80vh;
-    /*padding: 20px 0;*/
-}
-
-
-.imagens-projetos {
-    width: 94%;
-    margin: 0 auto;
 }
 
 .projeto-nome {
@@ -33,7 +26,6 @@
     padding: 5px;
     text-decoration: none;
     transition: 1s all;
-    width: 17%;
 }
 
 .button-projetos:hover {
@@ -47,21 +39,15 @@
 }
 
 
-.fonte-texto-academico {
+.fonte-texto-academico, .fonte-texto-profissionais{
     color: aqua;
     font-family: 'Fredericka the Great', cursive;
     font-size: 35px;
     padding: 25px;
     text-align: center;
+    width: 100%;
 }
 
-.fonte-texto-profissionais {
-    color: aqua;
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 35px;
-    text-align: center;
-    padding: 25px; 
-}
 
 .imagens-projetos {
     display: flex;
@@ -73,11 +59,7 @@
 
 .imagens-academico {
     border-right: 1px solid #ffffff98;
-    width: 50%;
-}
 
-.imagens-profissionais {
-    width: 50%;
 }
 
 .centralizador-imagens {
@@ -87,21 +69,22 @@
     margin: 20px;
 }
 
-.titulo-projeto{
+.titulo-projeto {
     color: rgb(255, 255, 255);
     font-family: 'Podkova', serif;
-    font-size: 25px;
+    font-size: 19px;
     padding: 15px;
     text-align: center;
 }
 
-.texto-projeto{
+.texto-projeto {
     color: rgb(255, 255, 255);
     font-family: 'Podkova', serif;
-    font-size: 18px;
-    padding: 30px;
+    font-size: 19px;
+    padding: 15px;
     text-align: center;
 }
+
 
 .link-imagens {
     border-left: 4px solid #3700ff;
