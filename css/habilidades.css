@@ -21,18 +21,52 @@
     width: 94%;
 }
 
-.imagens-html, .imagem-css, .imagem-java {
+.sobre-html,
+.sobre-css,
+.sobre-java,
+.sobre-git,
+.sobre-mysql {
     align-items: center;
     display: flex;
 	justify-content: space-between;
 }
 
 
-.fonte-texto-html, .fonte-texto-css, .fonte-texto-java{
+.fonte-texto-html,
+.fonte-texto-css, 
+.fonte-texto-java,
+.fonte-texto-git,
+.fonte-texto-mysql{
     color: aqua;
     font-family: 'Podkova', serif;
     font-size: 25px;
+    margin: 20px;
     text-align: center;
+}
+
+.fa-html5{
+    color: rgb(255, 89, 29);
+    font-size: 100px;
+}
+
+.fa-css3-alt {
+    color: rgb(0, 162, 255);
+    font-size: 100px;
+}
+
+.fa-square-js {
+    color: rgba(255, 255, 0, 0.938);
+    font-size: 80px;
+}
+
+.fa-git-alt {
+    color: rgb(255, 89, 29);
+    font-size: 90px;
+}
+
+.fa-database {
+    color: rgb(5, 5, 201);
+    font-size: 80px;
 }
 
 
@@ -41,7 +75,11 @@
         font-size: 50px;
     }
 
-    .fonte-texto-html, .fonte-texto-css, .fonte-texto-java {
+    .fonte-texto-html, 
+    .fonte-texto-css, 
+    .fonte-texto-java,
+    .fonte-texto-git,
+    .fonte-texto-mysql {
         font-size: 20px;
         padding: 15px;
         width: auto;
@@ -54,7 +92,11 @@
         font-size: 50px;
     }
 
-    .fonte-texto-html, .fonte-texto-css, .fonte-texto-java {
+    .fonte-texto-html, 
+    .fonte-texto-css, 
+    .fonte-texto-java,
+    .fonte-texto-git,
+    .fonte-texto-mysql {
         font-size: 15px;
         padding: 15px;
         width: auto;
